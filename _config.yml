@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Guilherme Oliveira # the main title
+title: Camaleão # the main title
 
 tagline: Offensive Security | Threat Intelligence | Forensic Analysis  # it will display as the subtitle
 
@@ -26,16 +26,16 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your GitHub username
+  username: Jugolino # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: @Jugolino_ # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Guilherme Oliveira
+  email: vinicios.guilherme8@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
