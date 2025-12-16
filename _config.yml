@@ -26,16 +26,16 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: Jugolino # change to your GitHub username
+  username: "Jugolino" # change to your GitHub username
 
 twitter:
-  username: @Jugolino_ # change to your Twitter username
+  username: "@Jugolino_" # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Guilherme_Oliveira
-  email: vinicios.guilherme8@gmail.com # change to your email address
+  name: "Guilherme_Oliveira"
+  email: "vinicios.guilherme8@gmail.com" # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
