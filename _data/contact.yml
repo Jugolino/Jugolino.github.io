@@ -21,7 +21,8 @@
 #
  - type: linkedin
    icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-   url:  'www.linkedin.com/in/guilherme-oliveira-6b6992276'   # Fill with your Linkedin homepage
+   noblank: true
+#   url:  'www.linkedin.com/in/guilherme-oliveira-6b6992276'   # Fill with your Linkedin homepage
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
