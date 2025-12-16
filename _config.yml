@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Camaleao # the main title
+title: Amigo # the main title
 
 tagline: Offensive Security | Threat Intelligence | Forensic Analysis  # it will display as the subtitle
 
@@ -98,12 +98,11 @@ theme_mode: dark
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://i.pinimg.com/736x/b5/0c/b2/b50cb25924205c29d92f5f9506e30ce4.jpg"
+avatar: "https://i.pinimg.com/736x/30/aa/53/30aa536880b64a492369d91f1fa861fc.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: "https://i.pinimg.com/736x/b5/0c/b2/b50cb25924205c29d92f5f9506e30ce4.jpg"
-og: https://i.pinimg.com/736x/b5/0c/b2/b50cb25924205c29d92f5f9506e30ce4.jpg # string, local or CORS resources
+social_preview_image:  # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
