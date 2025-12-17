@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-### Hey, my name is Guilherme. I’m a cybersecurity student and I created this blog to share stuff about malware, reverse engineering, exploit development, and other related topics.
+### Olá, meu nome é Guilherme Oliveira, sou formado em Segurança da Informação pela FATEC Ourinhos, com foco em Análise Forense e Segurança Ofensiva. Criei esse blog para compartilhar informações .
 
