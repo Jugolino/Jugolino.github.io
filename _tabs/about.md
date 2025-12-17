@@ -4,5 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-### Olá, meu nome é Guilherme Oliveira, sou formado em Segurança da Informação pela FATEC Ourinhos, com foco em Análise Forense e Segurança Ofensiva. Criei esse blog para compartilhar informações .
+### Hello, my name is Guilherme Oliveira, I have a degree in Information Security from FATEC Ourinhos, specializing in Forensic Analysis and Offensive Security. I created this blog to share information.
+
 
