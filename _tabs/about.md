@@ -8,7 +8,7 @@ order: 4
 
 <img src="https://i.pinimg.com/736x/72/bf/43/72bf4312e57001e8295ea927382b9379.jpg" width="400">
 
-# Academic Background
+## Academic Background
 - Graduated in Information Security – FATEC Ourinhos
 - Electronics Technician - ETEC Ourinhos
 
