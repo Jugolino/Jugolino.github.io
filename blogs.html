@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>0xED04RD4's blog</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/blogs.css">
+</head>
+
+<body>
+<div class="wrapper">
+
+<header>
+  <div class="logo">
+    <div class="logo-main">
+      0xED04RD4's blog <span class="cursor"></span>
+    </div>
+    <div class="logo-sub">
+      malware analysis • reversing • low level 
+    </div>
+  </div>
+
+  <div class="nav-right">
+<a href="./index.html">home</a>
+    <a href="./whoami.html">whoami</a>
+    <a href="./blogs.html">posts</a>
+  </div>
+</header>
+
+
+<!-- CONTEÚDO QUE MUDA -->
+<div class="blog-layout">
+
+<aside class="sidebar">
+
+  <h2>Filtros</h2>
+  <div class="filters">
+    <label class="filter-item"><input type="checkbox" value="tutorial"> tutoriais</label>
+    <label class="filter-item"><input type="checkbox" value="analise"> analise de malware</label>
+    <label class="filter-item"><input type="checkbox" value="crackme"> crackmes</label>
+    <label class="filter-item"><input type="checkbox" value="baixo_nivel"> baixo nivel</label>
+    <label class="filter-item"><input type="checkbox" value="vulnerabilidades"> vulnerabilidades </label>
+  </div>
+</aside>
+
+<main class="content">
+      <div id="posts-title" class="pagetitle">
+      $ ls posts
+    </div>
+  <div id="posts" class="posts"></div>
+</main>
+
+
+
+</div>
+
+<script src="../js/filter.js"></script>
+</body>
+</html>
