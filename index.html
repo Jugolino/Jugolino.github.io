@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Guilherme Oliveira</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<div class="wrapper">
+
+<header>
+  <div class="logo">
+    <div class="logo-main">
+      Guilherme Oliveira <span class="cursor"></span>
+    </div>
+    <div class="logo-sub">
+      Offensive Security • Threat Intelligence • Forensic Analysis
+    </div>
+  </div>
+
+  <div class="nav-right">
+<a href="./index.html">home</a>
+    <a href="./whoami.html">whoami</a>
+    <a href="./blogs.html">posts</a>
+  </div>
+</header>
+
+<br>
+
+<div class="home-layout">
+  <aside class="home-sidebar">
+    <h2>Navigation</h2>
+
+    <div class="sidebar-section">
+      <h3>Projetos</h3>
+      <a href="#">Projeto 01</a>
+      <a href="#">Projeto 02</a>
+      <a href="#">Projeto 03</a>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Certificados</h3>
+      <a href="#">Certificado 01</a>
+      <a href="#">Certificado 02</a>
+      <a href="#">Certificado 03</a>
+    </div>
+  </aside>
+
+  <main class="home-content">
+    <div class="pagetitle">
+      $ ls posts
+    </div>
+
+    <section class="home-posts">
+      <article class="home-post" onclick="location.href='pages/post5.html'">
+        <div class="home-post-main">
+          <h3>Aprendendo buffer overflow baseado em Stack</h3>
+          <p class="home-post-excerpt">Neste post, mostro o processo prático para explorar buffer overflow em stack e os pontos de atenção durante a análise.</p>
+          <div class="home-post-meta">
+            <span class="home-post-date">Feb 24, 2026</span>
+            <span class="home-post-category">Vulnerabilidades</span>
+          </div>
+        </div>
+        <div class="home-post-cover empty-cover">
+          <span>Adicionar capa</span>
+        </div>
+      </article>
+
+      <article class="home-post" onclick="location.href='pages/post6.html'">
+        <div class="home-post-main">
+          <h3>Como fazer um unpacking manual - resolução do crackme 'unpackme1.exe'</h3>
+          <p class="home-post-excerpt">Análise detalhada do processo de unpacking manual, incluindo observação de comportamento e reversão das camadas de proteção.</p>
+          <div class="home-post-meta">
+            <span class="home-post-date">Feb 24, 2026</span>
+            <span class="home-post-category">Crackme</span>
+          </div>
+        </div>
+        <div class="home-post-cover empty-cover">
+          <span>Adicionar capa</span>
+        </div>
+      </article>
+    </section>
+  </main>
+</div>
+<script src="../js/index.js"></script>
+</body>
+</html>
