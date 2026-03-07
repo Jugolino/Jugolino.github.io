@@ -631,7 +631,7 @@ a:hover {
   }
 
   .post-content-area {
-    padding: 18px 12px;
+    padding: 20px 14px;
   }
 
   .post-header {
@@ -649,13 +649,17 @@ a:hover {
   }
 
   .post-body {
-    font-size: 15px;
-    line-height: 1.65;
+    font-size: 16px;
+    line-height: 1.78;
+  }
+
+  .post-body p {
+    margin-bottom: 11px;
   }
 
   .post-section {
-    font-size: 16px;
-    margin: 24px 0 10px;
+    font-size: 18px;
+    margin: 30px 0 12px;
   }
 
   .post-side-section h3 {
@@ -678,14 +682,15 @@ a:hover {
   .device-summary-head,
   .device-summary-row {
     grid-template-columns: 1fr;
-    gap: 6px;
+    gap: 7px;
+    padding: 10px 12px;
   }
 
 }
 
 @media (max-width: 560px) {
   .post-content-area {
-    padding: 14px 10px;
+    padding: 18px 12px;
   }
 
   .post-hero {
@@ -698,11 +703,47 @@ a:hover {
   }
 
   .post-toc {
-    padding: 8px 6px;
+    padding: 10px 8px;
+    max-height: none;
+    overflow: visible;
   }
 
   .post-side-section {
     padding-left: 8px;
+  }
+
+  .post-body {
+    font-size: 16px;
+    line-height: 1.82;
+  }
+
+  .post-body p {
+    margin-bottom: 12px;
+  }
+
+  .post-section {
+    font-size: 18px;
+    margin: 28px 0 12px;
+  }
+
+  .command-box-head {
+    padding: 9px 10px;
+  }
+
+  .command-box-code {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .device-summary-head,
+  .device-summary-row {
+    font-size: 14px;
+    padding: 10px 11px;
+  }
+
+  .post-image-wrap.post-image-plain {
+    width: 100%;
+    margin: 10px auto 16px;
   }
 
   .post-tags span {

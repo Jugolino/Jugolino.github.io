@@ -138,7 +138,20 @@ document.addEventListener("DOMContentLoaded", function() {
   const markerOffset = 150;
   const collapseThreshold = 8;
 
+  function isMobileLayout() {
+    return window.matchMedia("(max-width: 980px)").matches;
+  }
+
   function refreshTabHeights() {
+    if (isMobileLayout()) {
+      tabs.forEach(function(tab) {
+        const isOpen = tab.el.classList.contains("is-open");
+        tab.toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        tab.linksEl.style.maxHeight = isOpen ? tab.linksEl.scrollHeight + "px" : "0px";
+      });
+      return;
+    }
+
     tabs.forEach(function(tab) {
       if (tab.el.classList.contains("is-open")) {
         tab.linksEl.style.maxHeight = tab.linksEl.scrollHeight + "px";
@@ -159,12 +172,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
   tabs.forEach(function(tab) {
     tab.toggle.addEventListener("click", function() {
+      if (isMobileLayout()) {
+        tab.el.classList.toggle("is-open");
+        refreshTabHeights();
+        return;
+      }
       setOpenTab(tab);
     });
   });
 
   function ensureActiveVisible(link) {
     if (!link) {
+      return;
+    }
+    if (isMobileLayout()) {
       return;
     }
     const current = sections.find(function(item) {
@@ -196,7 +217,9 @@ document.addEventListener("DOMContentLoaded", function() {
       return item.link === link;
     });
     if (current) {
-      setOpenTab(current.tab);
+      if (!isMobileLayout()) {
+        setOpenTab(current.tab);
+      }
       ensureActiveVisible(link);
     }
   }
@@ -242,8 +265,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const firstNonEmptyTab = tabs.find(function(tab) {
     return tab.links.length > 0;
   });
-  if (firstNonEmptyTab) {
+  if (firstNonEmptyTab && !isMobileLayout()) {
     setOpenTab(firstNonEmptyTab);
+  } else {
+    refreshTabHeights();
   }
   onScroll();
 });
