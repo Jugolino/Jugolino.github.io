@@ -4,8 +4,11 @@
 
 .whoami-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
   gap: 42px;
+  justify-content: center;
+  width: min(100%, 1240px);
+  margin: 0 auto;
 }
 
 .whoami-left,
